@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Slix</title>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+
+    
+    <header class="app-header">
+        <div class="logo">Slix</div>
+        <nav class="nav-links">
+            <a href="#">Gallery</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="gui-container" id="guiContainer">
+        <div class="custom-menu">
+            <div class="menu-section">
+                <div class="select-wrapper" title="Choose a beautiful preset palette">
+                    <select id="paletteSelect"></select>
+                </div>
+                <button class="action-btn" id="btnRandomize" title="Generate random beautiful colors" style="font-size: 14px; padding: 4px 8px;">🎲</button>
+            </div>
+            
+            <div class="menu-divider"></div>
+            
+            <div class="menu-section slider-section">
+                <div class="slider-group" title="Adjust the animation speed">
+                    <label>SPEED</label>
+                    <input type="range" id="speedSlider" min="0" max="1.5" step="0.01" value="0.5">
+                    <span id="speedVal">0.50</span>
+                </div>
+                <div class="slider-group" title="Change the flow direction angle">
+                    <label>DIRECTION</label>
+                    <input type="range" id="dirSlider" min="0" max="6.28" step="0.01" value="0.0">
+                    <span id="dirVal">0.00</span>
+                </div>
+                <div class="slider-group" title="Adjust visual contrast">
+                    <label>CONTRAST</label>
+                    <input type="range" id="contrastSlider" min="0" max="2.5" step="0.01" value="1.0">
+                    <span id="contrastVal">1.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="app-footer">
+        <div class="footer-left">
+            &copy; 2026 Slix Project. All rights reserved.
+        </div>
+        <div class="footer-center watermark">
+            Y7XIFIED
+        </div>
+        <div class="footer-right">
+            <a href="#">Twitter</a> | <a href="#">GitHub</a>
+        </div>
+    </footer>
+    
+    <script type="module" src="./script.js"></script>
+
+  </body>
+  
+</html>
