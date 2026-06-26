@@ -1,13 +1,10 @@
-# Slix
+<h3 align="center"><b>SLIX</b></h3>
 
-A sleek, premium liquid glass WebGL shader web application.
+<p align="center"><img src="https://skillicons.dev/icons?i=html,css,js,vite" /></p>
 
-## Live Demo
-Deployed via Vercel: [https://slix-bay.vercel.app](https://slix-bay.vercel.app)
+Dive into this mind-blowing, interactive web experience! Watch as it reacts seamlessly to your cursor. It is a visually stunning and dynamic web experiment built to bring some extra life to the browser.
 
-## Local Development
-1. Clone the repository
-2. Run `npm install`
-3. Run `npm run dev` to start the local Vite server at `http://localhost:5173`.
+## 🚀 Live Website
+Experience the fully interactive website live here: [https://slix-bay.vercel.app](https://slix-bay.vercel.app)
 
-*Made by Y7XIFIED*
+<div align="center"><p>Y7XIFIED</p></div>
